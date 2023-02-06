@@ -19,7 +19,7 @@ public class AddNewShipper implements Task {
                 Click.on(StartSharpNorthwindShipper.NORTHWIND_SECTION_BUTTON),
                 Click.on(StartSharpNorthwindShipper.SHIPPER_SECTION_BUTTON),
                 Click.on(StartSharpNorthwindShipper.NEW_SHIPPER_BUTTON),
-                Enter.theValue("SDET, Alexander Tobar from DXC Company").into(StartSharpNorthwindShipper.INPUT_COMPANYNAME),
+                Enter.theValue("I'm SDET, Alexander Tobar from DXC Company").into(StartSharpNorthwindShipper.INPUT_COMPANYNAME),
                 Enter.theValue("3054461269").into(StartSharpNorthwindShipper.INPUT_COMPANYPHONE),
                 Click.on(StartSharpNorthwindShipper.SAVE_SHIPPER_BUTTON),
                 Click.on(StartSharpNorthwindShipper.NORTHWIND_SECTION_BUTTON)
