@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">StartSharp Demo Serenity Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c5d8a6724771944863aa4310099982bc92376f1dd7626ebce4c9f7dafe62f6b5.html">Add New Shipper</a></span>
+                > <span class="truncate-60"><a
+                    href="c3bc71e8318ffc9a48990d4c5b4e539650468a7e76aaf93b74c959964d2fa8df.html">Add a new Shipper to the Shippers section. </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2023 17:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Add New Shipper </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As an admin, with the correct credentials, I want to be able to add a new Shipper in Northwind module.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Add a new Shipper to the Shippers section.
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9d4fa46f199753b17c259607cf09020e3366fbcfc850383389dec5ec795a39ef.png" title=" Given than Alex, a registered admin of the StartSharp application, wants to add a new Shipper" width="1920"/>
+                <img src="9d4fa46f199753b17c259607cf09020e3366fbcfc850383389dec5ec795a39ef.png" title=" Alex open up" width="1920"/>
+                <img src="9d4fa46f199753b17c259607cf09020e3366fbcfc850383389dec5ec795a39ef.png" title=" Alex opens the Start sharp page" width="1920"/>
+                <img src="9d4fa46f199753b17c259607cf09020e3366fbcfc850383389dec5ec795a39ef.png" title=" Alex open up (completed)" width="1920"/>
+                <img src="9bb0dfbcb1bd0be8bd3889dd58a7baadf4dfa1c2ee215dfee1a156bed5bad4cf.png" title=" Alex log in" width="1920"/>
+                <img src="9bb0dfbcb1bd0be8bd3889dd58a7baadf4dfa1c2ee215dfee1a156bed5bad4cf.png" title=" Alex enters 'admin' into where do we write the user" width="1920"/>
+                <img src="3eac18393b83d29ff995bb5a8881f7b9d3f986b69aacee73c239ca9d4de10a51.png" title=" Alex enters 'serenity' into where do we write the password" width="1920"/>
+                <img src="481d91586e3f90e13cd84a4edee77bf039145d223f313f17635289a9bd3fdce4.png" title=" Alex clicks on button that shows us the form to login" width="1920"/>
+                <img src="481d91586e3f90e13cd84a4edee77bf039145d223f313f17635289a9bd3fdce4.png" title=" Alex log in (completed)" width="1920"/>
+                <img src="c46e6a33b9e65cf910eba93e7c1bd91f98fd73e266b345e34a135fb1c3217829.png" title=" Given than Alex, a registered admin of the StartSharp application, wants to add a new Shipper (completed)" width="1920"/>
+                <img src="c7b6084e2ae8b56faa26a4c24d424b12df1c3dfa13d260cb4e62d7fbd8b61873.png" title=" When he navigates to Shippers section and fills out the form to add a new Shipper" width="1920"/>
+                <img src="c7b6084e2ae8b56faa26a4c24d424b12df1c3dfa13d260cb4e62d7fbd8b61873.png" title=" Alex add new shipper" width="1920"/>
+                <img src="c7b6084e2ae8b56faa26a4c24d424b12df1c3dfa13d260cb4e62d7fbd8b61873.png" title=" Alex clicks on button that shows us the Northwind options" width="1920"/>
+                <img src="8700af172507f4acf83a34f174428a1d8d93ee00122578deb996e47f2b32ece0.png" title=" Alex clicks on button that shows the Shipper Section" width="1920"/>
+                <img src="01bf1f6de5a49212aebe3ba57f80e4d53741cd63af95f5abd69ede03a046198b.png" title=" Alex clicks on button that shows us the New Shipper form" width="1920"/>
+                <img src="5b34d6ac0d7b276dda6f3e4f1bc22440c1799faf3e96f5724bf16c8b27cc5abb.png" title=" Alex enters 'SDET, Alexander Tobar from DXC Company' into where do we write the Company's Name" width="1920"/>
+                <img src="dbaffe64c5d221a6eaf071134b3d92fae09689b7e030603956849038a7ba53ee.png" title=" Alex enters '3054461269' into where do we write the Company's Phone" width="1920"/>
+                <img src="62f53cf692f026b24407d418e46a3100f8bfe369577b68d27daa60dc860f9315.png" title=" Alex clicks on button that shows us the New Shipper form" width="1920"/>
+                <img src="3ff21e14e6361036a8968cfe84a4f1e4e3ca9a35478b04ea9f6eb50815a3acbe.png" title=" Alex clicks on button that shows us the Northwind options" width="1920"/>
+                <img src="3ff21e14e6361036a8968cfe84a4f1e4e3ca9a35478b04ea9f6eb50815a3acbe.png" title=" Alex add new shipper (completed)" width="1920"/>
+                <img src="3ff21e14e6361036a8968cfe84a4f1e4e3ca9a35478b04ea9f6eb50815a3acbe.png" title=" When he navigates to Shippers section and fills out the form to add a new Shipper (completed)" width="1920"/>
+                <img src="2bec0ca0a2b0e76814b363dfeb881d2b2ab9f9773fa90e270b3704e30caa972f.png" title=" Then he should see the new Shipper added to the list of shippers: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
